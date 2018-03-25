@@ -1,11 +1,37 @@
+body
+{
+    background-color: rgba(0, 0, 255, .2);
+}
+
+.columna
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-width: thick;
+    border-style: ridge;
+    border-color: blue;
+    float: left;
+    width: 100%;
+}
+
 .columna2
 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-width: thick;
+    border-style: ridge;
+    border-color: gold;
 	float: left;
 	width: 50%;
 }
 
 .columna3
 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-width: thick;
+    border-style: ridge;
+    border-color: gold;
 	float: left;
 	width: 33.33333%;
 }
@@ -15,11 +41,57 @@ li
 	text-align: center;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
+.container
+{
+    text-align:center;
+}
+
+.fa
+{
+    margin: 15%;
+    font-size: 300%;
     width: 50px;
+    height: 50px;
     text-align: center;
-    text-decoration: none;
+    line-height: 50px;
     color: white;
+}
+
+.btn-infot
+{
+    background-color: red;
+    margin: 15px;
+    border-radius: 100%;
+    padding: 1%;
+}
+
+.btn-infof
+{
+    background-color: gold;
+    margin: 15px;
+    border-radius: 100%;
+    padding: 1%;
+}
+
+.btn-infow
+{
+    background-color: rgba(0,255,0,1);
+    margin: 15px;
+    border-radius: 100%;
+    padding: 1%;
+}
+
+.btn-infot:hover 
+{
+    background-color: #55ACEE;
+}
+
+.btn-infof:hover
+{
+    background-color:#3B5998;
+}
+
+.btn-infow:hover
+{
+    background-color: green;
 }
